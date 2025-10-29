@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LomitoWash — Shampoo suave para perros</title>
+    <meta name="description" content="Shampoo minimalista, suave y natural para perros. Limpieza efectiva con ingredientes amigables.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='20' cy='20' r='8' fill='%238EC5B6'/%3E%3Ccircle cx='44' cy='20' r='8' fill='%238EC5B6'/%3E%3Ccircle cx='24' cy='40' r='8' fill='%238EC5B6'/%3E%3Ccircle cx='40' cy='40' r='8' fill='%238EC5B6'/%3E%3Ccircle cx='32' cy='30' r='10' fill='%238EC5B6'/%3E%3C/svg%3E">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <span class="logo" aria-hidden="true">🐾</span>
+                <span class="brand-name">LomitoWash</span>
+            </div>
+            <nav class="nav">
+                <a href="#beneficios">Beneficios</a>
+                <a href="#ingredientes">Ingredientes</a>
+                <a href="#contacto">Contacto</a>
+                <a href="#comprar" class="btn btn-ghost">Comprar</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <h1>Shampoo suave para perros</h1>
+                    <p>Fórmula minimalista con ingredientes naturales. Limpieza efectiva, piel feliz y pelaje brillante, sin irritaciones.</p>
+                    <div class="cta-row">
+                        <a id="comprar" href="https://wa.me/5215555555555?text=Hola%20quiero%20LomitoWash" class="btn btn-primary">Comprar ahora</a>
+                        <a href="#ingredientes" class="btn btn-link">Ver ingredientes</a>
+                    </div>
+                    <ul class="badges">
+                        <li>pH balanceado</li>
+                        <li>Sin parabenos</li>
+                        <li>Aroma suave</li>
+                    </ul>
+                </div>
+                <div class="hero-art" aria-hidden="true">
+                    <div class="bottle">
+                        <div class="bottle-cap"></div>
+                        <div class="bottle-label">Lomito<span>Wash</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="beneficios" class="section">
+            <div class="container cards">
+                <article class="card">
+                    <h3>Piel cuidada</h3>
+                    <p>Con agentes suaves que ayudan a mantener la barrera natural de la piel.</p>
+                </article>
+                <article class="card">
+                    <h3>Brillo natural</h3>
+                    <p>Mejora la textura del pelaje para un acabado sedoso y sin frizz.</p>
+                </article>
+                <article class="card">
+                    <h3>Aroma ligero</h3>
+                    <p>Fragancia pastel leve, cero saturación para narices sensibles.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="ingredientes" class="section alt">
+            <div class="container two-col">
+                <div>
+                    <h2>Ingredientes que importan</h2>
+                    <p>Lista corta y clara. Sin rellenos innecesarios.</p>
+                    <ul class="list">
+                        <li>Agua purificada</li>
+                        <li>Tensioactivos suaves de origen vegetal</li>
+                        <li>Aloe vera y avena coloidal</li>
+                        <li>Glicerina vegetal</li>
+                        <li>Fragancia hipoalergénica</li>
+                    </ul>
+                </div>
+                <div class="note">
+                    <p>Probado dermatológicamente en humanos, formulado para lomitos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta">
+            <div class="container cta-box">
+                <h2>Listo para un baño feliz</h2>
+                <p>Únete a los primeros en probar LomitoWash.</p>
+                <div class="cta-row">
+                    <a href="mailto:ventas@lomitowash.com?subject=Pedido%20LomitoWash" class="btn btn-primary">Quiero pedir</a>
+                    <a href="https://wa.me/5215555555555?text=Hola%20quiero%20LomitoWash" class="btn btn-ghost">WhatsApp</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section alt">
+            <div class="container two-col contact">
+                <div>
+                    <h2>Hablemos</h2>
+                    <p>Cuéntanos de tu lomito y te contactamos en menos de 24h.</p>
+                </div>
+                <form id="contactForm" class="form">
+                    <div class="field">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" name="nombre" type="text" required placeholder="Tu nombre">
+                    </div>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" required placeholder="tu@email.com">
+                    </div>
+                    <div class="field full">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" required rows="5" placeholder="¿Cómo podemos ayudarte?"></textarea>
+                    </div>
+                    <input type="text" name="company" class="hp" tabindex="-1" autocomplete="off">
+                    <div class="agree">
+                        <label>
+                            <input type="checkbox" id="consent" required>
+                            Acepto ser contactad@ por email.
+                        </label>
+                    </div>
+                    <div class="actions">
+                        <button type="submit" class="btn btn-primary" id="sendBtn">Enviar</button>
+                        <span id="formMsg" class="form-msg" role="status" aria-live="polite"></span>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <span>© <span id="year"></span> LomitoWash</span>
+            <a href="mailto:hola@lomitowash.com" class="footer-link">Contacto</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <noscript>Para la mejor experiencia, habilita JavaScript.</noscript>
+    
+</body>
+</html>
+
+

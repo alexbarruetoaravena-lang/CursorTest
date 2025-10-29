@@ -1,0 +1,17 @@
+# OS/Editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Node/Package managers (por si pruebas herramientas locales)
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Vercel local data
+.vercel/
+
+# Misc
+.env
+.env.*
