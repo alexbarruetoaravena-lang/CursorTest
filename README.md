@@ -26,7 +26,21 @@ Se usa Formspree para manejo de formularios en un sitio estático.
 2. Edita `script.js` y reemplaza `your_form_id` en `FORM_ENDPOINT`.
 3. Publica en Vercel y prueba el envío.
 
-## Despliegue en Vercel
+## Despliegue gratis
+
+### GitHub Pages (recomendado para este proyecto)
+
+Ya está configurado un workflow de GitHub Actions que despliega al hacer push a `main`.
+
+1. Ve a Settings → Pages del repositorio y asegúrate de que la fuente sea "GitHub Actions".
+2. Tras el push, espera a que el workflow "Deploy static site to GitHub Pages" finalice.
+3. La URL quedará disponible en la sección Pages, algo como:
+
+```
+https://alexbarruetoaravena-lang.github.io/CursorTest/
+```
+
+### Vercel (alternativa)
 
 ```bash
 npm i -g vercel
